@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <sb.app.sbviewpager.library.SbTabView
+        android:id="@+id/sbTabView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:sb_containerColor="#051D9C"
+        app:sb_menu ="@menu/container_menu"
+        app:sb_indicatorColor ="@color/white"
+        app:sb_minHeight="50dp"
+        app:sb_deactiveColor="#99FFFFFF"
+        app:sb_indicatorSize ="3dp"
+        app:sb_duration="500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+</LinearLayout>

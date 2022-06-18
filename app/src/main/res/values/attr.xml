@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <declare-styleable name="SbViewPager">
+
+
+        <attr name="sb_menu" format="reference"/>
+        <attr name="sb_containerColor" format="color"/>
+        <attr name="sb_minHeight" format="dimension"/>
+        <attr name="sb_indicatorSize" format="dimension"/>
+        <attr name="sb_duration" format="integer"/>
+        <attr name="sb_indicatorColor" format="color"/>
+        <attr name="sb_deactiveColor" format="color"/>
+
+
+
+
+
+    </declare-styleable>
+
+
+
+
+</resources>
